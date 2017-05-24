@@ -349,7 +349,9 @@ of datastore you are using.
             db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
             firewall_name: main
             user_class: AppBundle\Entity\User
-
+            from_email:
+                address: <your Email>
+                sender_name: <your name>
     .. code-block:: xml
 
         <!-- app/config/config.xml -->
